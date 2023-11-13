@@ -1,7 +1,12 @@
 import '../src/styles.css';
+import { NumberKeyboard } from './keyboard/keyboard';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <NumberKeyboard></NumberKeyboard>
+    </>
+  );
 }
 
 export default App;
